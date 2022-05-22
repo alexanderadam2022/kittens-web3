@@ -1,0 +1,35 @@
+1.sudo yum update -y
+2.sudo yum install httpd -y
+3.sudo systemctl status httpd
+4.sudo systemctl start httpd
+5.sudo systemctl enable httpd
+6.cd /var/www/html
+7.ls -la
+8.sudo yum install git -y
+9.sudo git clone https://github.com/alexanderadam2022/kittens-project.git
+
+#masaüstünde gitbash açarak; 
+ -git clone https://github.com/alexanderadam2022/kittens-project.git
+ 
+#static.web içindekileri içine kopyalayalım.
+ -cd kittens_project
+ -git add .
+ -git commit -m "first commit"
+ -git push
+#repoya bakalım, açıldığını görelim.
+#masaüstünde gitbash yaparken bunu kullanıyoruz.
+
+10.ls -la
+11.sudo mv kittens-project/* .
+12.ls -la
+13.sudo rm -rf kittens-project/
+14.ls -la
+-------------------
+amazon web cloudformation, stack oluştur, hazırlanan yaml dosyanı ekle ve instance ip4 aç. Hem clone adresinden, hem de klasör olarak yapabiliyoruz.
+(sudo git clone https://github.com/alexanderadam2022/kittens-web2.git .)
+
+# boşluk ve nokta koyduğumuzda mv komutunu icra etmemize gerek kalmıyor.
+
+Farkı klasörde raw(index.html) adresi alıp master dahil
+FOLDER="https://raw.githubusercontent.com/alexanderadam2022/kittens-web2/master"
+-------------
